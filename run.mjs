@@ -1,5 +1,5 @@
 import { join } from 'node:path';
-import { count, z } from '@cairul/plugin-kit';
+import { count, z } from '@cairul/pdk';
 import {
   counts,
   list,
@@ -11,7 +11,7 @@ import {
   requireExclusive,
   selectors,
   value,
-} from '@cairul/plugin-kit/runner';
+} from '@cairul/pdk/runner';
 
 function summarize(output) {
   const {
